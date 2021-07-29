@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navigation {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+.logo {
+    display: inline-block;
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+nav {
+    width: 73%;
+    padding: 1%;
+}
+li {
+    display: inline-block;
+}
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+.navButtons {
+    display: inline;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 0px;
+    width: 55%;
+    vertical-align: top;
+}
+
+
+.introContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAE9F5;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+}
+.hero{
+    display: inline-block;
+    height: 1200px;
+    width: 800px;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 25px;
+   
+ }
+.radioK, .inTent, .petsOnly {
+    object-fit: cover;
+    display: inline-block;
+    margin-bottom: 20px;
+ }
+ img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+ }
