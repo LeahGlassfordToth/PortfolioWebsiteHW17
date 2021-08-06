@@ -5,65 +5,22 @@
     </title>
     <link rel="icon" href="../UX_UI_HW_17/images/favicon_io/favicon-32x32.png" sizes="32x32">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
-<!--
-    <body>
 
-    <header>
-        <section class="navContainer">
-            <h2 class="logo">Leah Glassford Toth</h2>
-            <ul class="navButtons">
-                <li>About</li> 
-                <li>Contact</li>
-                <li>Other Work</li>
-            </ul>
-        </section>    
-    </header>
-
-<section class="introContainer">
-    <h1>Hello</h1>
-    <p>I’m Leah, a UX/UI designer with a background in graphic design and customer service. I am also a backyard garderner and pet lover whose favorite color is pink.</p>
-</section>
-<section class="caseStudies">
-    <section class="radioK">
-        <h3>Radio K</h3>
-        <p>A team project in which we added focus and delight to the local college radio station’s eclectic web presence.</p>
-        <button>View More</button>
-    </section>
-    <section class="inTent">
-        <h3>inTent</h3>
-        <p>A mobile app design and onboarding sequence for a free campsite booking app and community.</p>
-        <button>View More</button>
-    </section>
-    <section class="petsOnly">
-        <h3>PetsOnly</h3>
-        <p>The best parts of social media comes together in this mock-up mobile app for pets and their people.</p>
-        <button>View More</button>
-    </section>
-</section>
-<footer>
-    <section class="navContainer">
-        <h2 class="logo">Leah Glassford Toth</h2>
-        <ul class="navButtons">
-            <li>About</li> 
-            <li>Contact</li>
-            <li>Other Work</li>
-        </ul>
-    </section>  
-</footer>
-</body> 
-</html> -->
-
-
-<body>
+<body> 
 <header class="navigation">
     <div class="logo">
-        <img src="images/LeahGlassfordToth.png">
+        <h1><a href="index.html">Leah Glassford Toth</a></h1>
     </div>
-    <nav class="inlineBlock">
+    <nav class="navButtons">
         <ul>
-            <li>About</li>
-            <li>Contact</li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
             <li>Other Work</li>
         </ul>
     </nav>
@@ -71,34 +28,43 @@
 
 <section class="introContainer">
     <h1>Hello</h1>
-    <p>I’m Leah, a UX/UI designer with a background in graphic design and customer service. I am also a backyard gardener and pet lover whose favorite color is pink.</p>
+    <p style="text-align: center;">I’m Leah, a UX/UI designer with a background in graphic design and customer service. <br> I am also a backyard gardener and pet lover whose favorite color is pink.</p>
 </section>
 
 <section class="hero">
     <div class="radioK">
-        <h3>Radio K</h3>
-        <p>A team project in which we added focus and delight to the local college radio station’s eclectic web presence.</p>
-        <img src="images/RadioKStreamHome.png">
-        <button>View Case Study</button>
+        <div class="portfolioContainer">
+        <h3>Non-Profit Web Redesign</h3>
+        <p>A team project in which we added focus and delight <br>to the local college radio station’s eclectic web presence.</p>
+        </div>
+        <img class="portfolioImage" src="images/RadioKStreamHome.png">
+        <button class="button" style="vertical-align:middle"><span>View Case Study</span></button>
+
+        
     </div>
     <div class="inTent">
-        <h3>inTent</h3>
-        <p>A mobile app design and onboarding sequence for a free campsite booking app and community.</p>
-        <img src="images/inTentScreens.png">
-        <button>View Case Study</button>
+        <div class="portfolioContainer">
+        <h3>Mobile App Onboarding</h3>
+        <p>A mobile app design and onboarding sequence <br>for a free campsite booking app and community.</p>
+        </div>
+        <img class="portfolioImage" src="images/inTentScreens.png">
+        <button class="button" style="vertical-align:middle"><span>View Case Study</span></button>
     </div>
     <div class="petsOnly">
-        <h3>PetsOnly</h3>
-        <p>The best parts of social media comes together in this mock-up mobile app for pets and their people.</p>
-        <img src="images/PetsOnlyScreens.png">
-        <button>View Case Study</button>
+        <div class="portfolioContainer">
+        <h3>Mobile App Team Project</h3>
+        <p>The best parts of social media comes together <br>in this mock-up mobile app for pets and their people.</p>
+        </div>
+        <img class="portfolioImage" src="images/PetsOnlyScreens.png">
+        <button class="button" style="vertical-align:middle"><span>View Case Study</span></button>
     </div>
 </section>
+
 <footer class="navigation">
     <div class="logo">
-        <img src="images/LeahGlassfordToth.png">
+        <h1>Leah Glassford Toth</h1>
     </div>
-    <nav class="inlineBlock">
+    <nav class="navButtons">
         <ul>
             <li>About</li>
             <li>Contact</li>
